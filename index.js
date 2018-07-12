@@ -7,7 +7,7 @@ function printBadges (names) {
 }
 
 function tailsNeverFails () {
-  var x = true
+  let x = true
   var t = 0
   var f = 0 
   while (x) {
@@ -18,5 +18,6 @@ function tailsNeverFails () {
     else {
       f = f + 1
     }
-  } return `You got ${heads} tails in a row`
+  }
+  return `You got ${heads} tails in a row`
 }
