@@ -7,5 +7,7 @@ function printBadges (names) {
 }
 
 function tailsNeverFails () {
+  var tails = 0
+  var heads = 1 
   
 }
