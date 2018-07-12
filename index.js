@@ -6,16 +6,6 @@ function printBadges (names) {
   return names
 }
 
-// function tailsNeverFails (value) {
-//   var x = true
-//   var t = 0
-//   while (x) {
-//     t = Math.random();
-//     if t
-    
-//   }
-//   }
-   
+function tailsNeverFails () {
   
-// }
-
+}
