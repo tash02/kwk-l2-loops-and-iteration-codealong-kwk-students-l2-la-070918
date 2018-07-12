@@ -11,13 +11,12 @@ function tailsNeverFails () {
   var t = 0
   var f = 0 
   while (x) {
-     t = Math.random()
+    t = Math.random()
     if (t,0.5) {
       x = false
     }
     else {
       f = f + 1
     }
-  }
-return `You got ${heads} tails in a row`
+  } return `You got ${heads} tails in a row`
 }
