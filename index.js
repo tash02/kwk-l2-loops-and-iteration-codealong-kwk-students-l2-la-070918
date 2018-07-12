@@ -19,5 +19,5 @@ function tailsNeverFails () {
       f = f + 1
     }
   }
-  return `You got ${heads} tails in a row`
+  return `You got ${f} tails in a row`
 }
