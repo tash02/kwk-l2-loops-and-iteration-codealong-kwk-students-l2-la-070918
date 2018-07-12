@@ -7,6 +7,7 @@ function printBadges (names) {
 }
 
 function tailsNeverFails (value) {
+  while 
   
 }
 
