@@ -7,6 +7,7 @@ function printBadges (names) {
 }
 
 function tailsNeverFails () {
+  var count = 0
   var tails = 0
   var heads = 1 
   var randomNumbers = Math.random()
