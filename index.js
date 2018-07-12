@@ -10,7 +10,7 @@ function tailsNeverFails () {
   var count = true
   var tails = 0
   var heads = 1 
-  var randomNumbers = Math.random()
+  // var randomNumbers = Math.random()
 }
   while (randomNumbers[count] != 1) {
     var randomNumbers = Math.random()
