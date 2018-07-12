@@ -12,7 +12,7 @@ function tailsNeverFails () {
   var f = 0 
   while (x) {
     t = Math.random()
-    if (t,0.5) {
+    if (t < 0.5) {
       x = false
     }
     else {
