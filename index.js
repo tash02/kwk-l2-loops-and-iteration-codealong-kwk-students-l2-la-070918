@@ -7,12 +7,16 @@ function printBadges (names) {
 }
 
 function tailsNeverFails () {
-  var count = true
-  var tails = 0
-  var heads = 1 
-}
-  while (randomNumbers[count] != 1) {
-    var randomNumbers = Math.random()
-    count++;
-    randomNumbers.push(pcNum());
-}
+  var x = true
+  var t = 0
+  var f = 0 
+  while (x) {
+     t = Math.random()
+    if (t,0.5) {
+      x = false
+    }
+    else {
+      f = f + 1
+    }
+  }
+return `You got ${heads} tails in a row
