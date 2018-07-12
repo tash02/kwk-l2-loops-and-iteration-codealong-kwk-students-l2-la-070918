@@ -8,8 +8,8 @@ function printBadges (names) {
 
 function tailsNeverFails () {
   let x = true
-  var t = 0
-  var f = 0 
+  let t = 0
+  let f = 0 
   while (x) {
     t = Math.random()
     if (t < 0.5) {
