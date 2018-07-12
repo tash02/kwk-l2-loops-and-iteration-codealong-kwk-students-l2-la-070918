@@ -9,5 +9,8 @@ function printBadges (names) {
 function tailsNeverFails () {
   var tails = 0
   var heads = 1 
-  
+}
+  while (randomNumbers[count] != 1) {
+    count++;
+    randomNumbers.push(pcNum());
 }
