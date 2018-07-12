@@ -7,12 +7,13 @@ function printBadges (names) {
 }
 
 function tailsNeverFails () {
-  var count = 0
+  var count = true
   var tails = 0
   var heads = 1 
   var randomNumbers = Math.random()
 }
   while (randomNumbers[count] != 1) {
+    var randomNumbers = Math.random()
     count++;
     randomNumbers.push(pcNum());
 }
